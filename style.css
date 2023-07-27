@@ -16,11 +16,22 @@ body {
 }
 
 .principal {
-     background-image: url("img/Background.png"); 
-     background-repeat: no-repeat;
-     background-size: contain;
+    background-image: url("img/Background.png");
+    background-repeat:  no-repeat;
     }
 
-    .container {
-        height:100vh ;
+    .container{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 33% 33%;
+    }
+
+    .container_botão {
+      background-color: var(--botao-azul);
+      border-radius: 5px;
+      padding: 1em;
+      color: var(--branco-principal);
+      display: block;
+
+    
     }
